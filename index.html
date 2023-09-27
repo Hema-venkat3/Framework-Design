@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framework Design</title>
+
+    <!-- BOOTSTRAP CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- END OF BOOTSTRAP LINK -->
+
+    <!-- #E85DBB - pink #43F801 - green, logo color - #cf2e2e-->
+    <!-- banner - https://dotcomstories.com/wp-content/uploads/2023/04/dreamhouse-1.jpg -->
+
+    <!-- INTERNAL CSS -->
+    <style>
+        .bg-color {
+            background-color: #212529;
+        }
+
+        .bg-red {
+            background-color: #dc3545;
+        }
+
+        .bg-pop {
+            background-color: #f8de8d;
+        }
+    </style>
+    <!-- END OF INTERNAL CSS -->
+
+</head>
+
+
+<body>
+    <!-- HEADER SECTION -->
+    <!-- <div class="summa">
+        <img src="./img/logo.png" alt="Logo" width="200" class="float-start">
+        <div class="float-end p-5">
+            <img src="./img/icons8-facebook-50.png" alt="Facebook">
+            <img src="./img/icons8-linkedin-50.png" alt="LinkedIn">
+            <img src="./img/icons8-twitter-50.png" alt="Twitter">
+            <img src="./img/icons8-youtube-50.png" alt="YouTube">
+        </div>
+    </div> -->
+    <!-- END OF HEADER SECTION -->
+
+    <!-- NAVBAR SECTION -->
+    <div class="navbar ms-auto justify-content-center bg-color fs-4">
+        <ul class="align-items-center">
+            <a href="#" class="text-decoration-none text-white">
+                <li class="list-unstyled d-inline px-5 text-decoration-none">Home</li>
+            </a>
+            <a href="#animation" class="text-decoration-none text-white animation">
+                <li class="list-unstyled d-inline px-5 text-decoration-none">Animation</li>
+            </a>
+            <a href="#horror" class="text-decoration-none text-white">
+                <li class="list-unstyled d-inline px-5 text-decoration-none">Horror</li>
+            </a>
+            <a href="#comedy" class="text-decoration-none text-white">
+                <li class=" text-center d-inline px-5">Comedy</li>
+            </a>
+        </ul>
+    </div>
+    <!-- END OF NAVBAR SECTION -->
+
+    <!-- BANNER SECTION -->
+    <div class=>
+        <div>
+            <img src="./img/banner.jpeg" alt="Banner" class="img-fluid">
+        </div>
+
+    </div>
+    <!-- END OF BANNER SECTION -->
+
+    <!-- HORIZZONTAL CARD SECTION -->
+    <div class="container py-5 bg-red ms-auto my-5" id="horror">
+        <div class="card m-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="https://www.imdb.com/title/tt10160976/" target="_blank"><img src="./img/horror-1.jpg"
+                            alt="The Nun" class="card-img-top img-fluid" style="height: 250px;"></a>
+                </div>
+                <div class="col-md-7">
+                    <div class="card-title p-3">
+                        <b>
+                            <p class="fs-5">THE NUN</p>
+                        </b>
+                    </div>
+                    <div class="card-text">
+                        <p>When a young nun at a cloistered abbey in Romania takes her own life, a priest with a haunted
+                            past and a novitiate on the threshold of her final vows are sent by the Vatican to
+                            investigate. Together they uncover the order's unholy secret.</p>
+                    </div>
+                    <input type="button" value="Explore more" class="rounded p-2">
+                </div>
+            </div>
+        </div>
+        <div class="card m-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="https://www.imdb.com/title/tt27510150/" target="_blank"><img src="./img/horror-2.jpg"
+                            alt="DD Returns" class="card-img img-fluid" style="height: 250px;"></a>
+                </div>
+                <div class="col-md-7">
+                    <div class="card-title p-3">
+                        <b>
+                            <p class="fs-5">DD Returns</p>
+                        </b>
+                    </div>
+                    <div class="card-text">
+                        <p>
+                            The protagonist and his friends hides a bag full of money and jewels in a haunted bungalow
+                            to ditch the police. When he goes to retrieve the bag, a ghost makes him play a survival
+                            game in order to leave with the bag.
+                        </p>
+                    </div>
+                    <input type="button" value="Explore more" class="rounded p-2">
+                </div>
+            </div>
+        </div>
+        <div class="card m-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <a href="https://www.imdb.com/title/tt13345606/" target="_blank"><img src="./img/horror-3.jpeg"
+                            alt="Evil Dead Rise" class="img-fluid card-img" style="height: 250px;"></a>
+                </div>
+                <div class="col-md-7">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <b>
+                                <p class="fs-5">Evil Dead Rise</p>
+                            </b>
+                        </div>
+                        <div class="card-text">
+                            <p>Evil Dead Rise is a 2023 American supernatural horror film written and directed by Lee
+                                Cronin. It is the fifth installment of the Evil Dead film series. The film stars Lily
+                                Sullivan and Alyssa Sutherland as two estranged sisters trying to survive and save their
+                                family from deadites.</p>
+                        </div>
+                    </div>
+                    <input type="button" value="Explore more" class="rounded p-2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END OF HORIZZONTAL CARD SECTION -->
+
+    <!-- CARD SECTION -->
+
+
+    <div class="container d-flex bg-color ms-auto py-5 my-5" id="animation">
+        <div class="card m-5" style="width: 20rem;">
+            <a href="https://www.imdb.com/title/tt12801262/" target="_blank"><img src="./img/ani-1.jpg" alt="Luca"
+                    class="card-img-top"></a>
+            <div class="card-body">
+                <div class="card-title">
+                    <b>
+                        <p class="fs-5">LUCA</p>
+                    </b>
+                </div>
+                <div class="card-text">
+                    <p>A young boy experiences an unforgettable seaside summer on the Italian Riviera filled with
+                        gelato,pasta and endless scooter rides. Luca shares these adventures with his newfound best
+                        friend, but all the fun is threatened by a deeply-held secret: he is a sea monster from another
+                        world just below the ocean's surface.</p>
+                </div>
+            </div>
+            <input type="button" value="Explore more" class="rounded p-2">
+        </div>
+        <div class="card m-5" style="width: 20rem;">
+            <a href="https://www.imdb.com/title/tt4593060/" target="_blank"><img src="./img/ani-2.jpg" alt="Pinocchio"
+                    class="card-img-top"></a>
+            <div class="card-body">
+                <div class="card-title">
+                    <b>
+                        <p class="fs-5">PINOCCHIO</p>
+                    </b>
+                </div>
+                <div class="card-text">
+                    <p>The puppet acts like a human child: he frequently gets into trouble and is often impulsive and
+                        mischievous. When he tells a lie, his nose grows longer, and when he tells the truth, his nose
+                        resumes its normal size.</p>
+                </div>
+            </div>
+            <input type="button" value="Explore more" class="rounded p-2">
+        </div>
+        <div class="card m-5" style="width: 20rem;">
+            <a href="https://www.imdb.com/title/tt7214954/" target="_blank"><img src="./img/ani-3.jpg" alt="Luck"
+                    class="card-img-top"></a>
+            <div class="card-body">
+                <div class="card-title">
+                    <b>
+                        <p class="fs-5">LUCK</p>
+                    </b>
+                </div>
+                <div class="card-text">
+                    <p>Luck is an animated film about Sam (voiced by Eva Noblezada), the unluckiest person in the world.
+                        She accidentally travels to the Land of Luck and learns positive lessons about overcoming
+                        challenges and managing disappointments.</p>
+                </div>
+            </div>
+            <input type="button" value="Explore more" class="rounded p-2">
+        </div>
+    </div>
+
+    <!-- END OF CARD SECTION -->
+
+    <!-- 2 CARDS IN A ROW COMEDY -->
+    <div class="container bg-pop py-5 ms-auto my-5" id="comedy">
+        <div class="card m-5">
+            <div class="row">
+                <div class="col-md-3 figure-img">
+                    <a href="https://www.imdb.com/title/tt15671028/" target="_blank"> <img src="./img/com-3.jpg"
+                            alt="No Hard Feelings" width="310px" height="310px"></a>
+                </div>
+                <div class="col-md-3 pe-5">
+                    <div class="card-body ps-5">
+                        <div class="card-title">
+                            <b>
+                                <p class="fs-5">No Hard Feelings</p>
+                            </b>
+                        </div>
+                        <div class="card-text">
+                            <p>Thirty-two year old Maddie Barker is an Uber driver and bartender in Montauk, New York.
+                                She is facing bankruptcy after her car is repossessed as she owes property taxes on a
+                                home she inherited from her mother.</p>
+                        </div>
+                        <input type="button" value="Explore more" class="rounded p-2">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.imdb.com/title/tt8637498/" target="_blank"><img src="./img/com-4.jpg"
+                            alt="The Monkey King" width="310px" height="310px"></a>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-body ps-5">
+                        <div class="card-title"><b class="fs-5">The Monkey King</b></div>
+                        <div class="card-text">
+                            <p>
+                                THE MONKEY KING is an action-packed family comedy that follows a charismatic Monkey and
+                                his magical fighting Stick on an epic quest for victory over 100 demons, an eccentric
+                                Dragon King, and Monkey's greatest foe of all -his own ego.
+                            </p>
+                        </div>
+                        <input type="button" value="Explore more" class="rounded p-2">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="card m-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="https://www.imdb.com/title/tt6264654/" target="_blank"><img src="./img/com-1.jpg"
+                            alt="Free Guy" width="310px" height="310px" class="card-img-top "></a>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-body ps-5">
+                        <div class="card-title">
+                            <b>
+                                <p class="fs-5">Free Guy</p>
+                            </b>
+                        </div>
+                        <div class="card-text">
+                            <p>Summaries. When Guy, a bank teller, learns that he is a non-player character in a
+                                bloodthirsty, open-world video game, he goes on to become the hero of the story and
+                                takes the responsibility of saving the world.</p>
+                        </div>
+                        <input type="button" value="Explore more" class="rounded p-2">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <a href="https://www.imdb.com/title/tt10648342/" target="_blank"><img src="./img/com-2.jpg"
+                            alt="Thor" width="310px" height="310px" class="card-img-top "></a>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-body ps-5">
+                        <div class="card-title"><b class="fs-5">Thor</b></div>
+                        <div class="card-text">
+                            <p>As the son of Odin (Anthony Hopkins), king of the Norse gods, Thor (Chris Hemsworth) will
+                                soon inherit the throne of Asgard from his aging father.</p>
+                        </div>
+                        <input class="rounded p-2" type="button" value="Explore more">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF 2 CARDS IN A ROW -->
+    <hr>
+
+    <!-- FOOTER SECTION -->
+    <div class="text-bg-dark text-center p-1 align-content-center">
+        <p>Copyright - 2023, This design made by HEMADEVI V </p>
+    </div>
+    <!-- END OF FOOTER SECTION -->
+
+</body>
+
+</html>
